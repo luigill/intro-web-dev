@@ -27,13 +27,13 @@
 
 - Configuração inicial:
 
-  ````
+  ```
   git config --global user.name "nome"
   git config --global user.email email
   git config --global init.defaultBranch main
   git config --global color.ui auto
-  git config --global pull.rebase false```
-  ````
+  git config --global pull.rebase false
+  ```
 
 - Para listar as configurações:
 
@@ -77,6 +77,9 @@ git push <remote> <branch>
 
 //Clona um repo para a máquina local.
 git clone <link>
+
+//Compara o repo local e o remoto.
+git fetch
 ```
 
 - Chave SSH
