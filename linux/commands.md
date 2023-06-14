@@ -1,0 +1,43 @@
+# Comandos Linux
+
+- whoami
+  - Retorna o nome do usuário.
+- ls
+  - Lista o conteúdo do diretório corrente.
+- pwd
+  - Retorna o caminho até o diretório corrente.
+- clear
+  - Limpa o terminal.
+- man
+  - Manual de instruções de determinado comando.
+- cd {path}
+  - Troca de diretório.
+  - .. - Volta um diretório.
+- mkdir {name}
+  - Cria um diretório.
+- touch {name.ex}
+  - Cria um arquivo no diretório corrente.
+- rm {name}
+  - Remove um arquivo.
+- rm -r -i {name}
+  - Remove um diretório.
+- mv {name} {destiny}
+  - Move um arquivo de diretório.
+- cp {name} {destiny}
+  - Copia um arquivo.
+- wc {name}
+  - Conta linhas, palavras e chars numa entrada.
+- cat {name}
+  - Retorna o conteúdo de uma entrada.
+- sort {name}
+  - Organiza as entradas.
+- head {name}
+  - Mostra as 10 primeiras linhas de uma entrada.
+- tail {name}
+  - Mostra as 10 últimas linhas de uma entrada.
+- {command} > {file}
+  - Redireciona a saída de um comando em um arquivo.
+- {command} >> {file}
+  - Concatena o resultado de um comando no arquivo.
+- {first} | {second}
+  - O resultado do primeiro é a entrada do segundo.

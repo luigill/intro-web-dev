@@ -6,8 +6,10 @@
   - Elementos - Pedaços de conteúdo com uma tag de abertura e fechamento.
     - Podem ser vistos como um container para conteúdo.
   - Tag - Comunicam o navegador onde um elemento HTML começa e termina.
-  - <div>Elemento HTML</div>
-  - Algumas tags não precisam de fechamento, como <img>
+  ```
+  <div> Elemento HTML </div>
+  ```
+  - Algumas tags não precisam de fechamento, como img.
   - É importante usar as tags certas para os conteúdos, pois tem-se um grande impacto na acessibilidade do site e o quão bem ele é rankeado nas search engines.
 - CSS (Cascading Stylesheet) é o estilo que vai nessa informação.
 - A indentação de tags HTML cria uma relação de pai e filho, que será explorada com CSS e JS.

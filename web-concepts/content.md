@@ -1,0 +1,21 @@
+# Conceitos Web
+
+- Internet: Uma grande rede de computadores que se comunicam entre si.
+  - Conexão de fios que ligam computadores.
+    - Fios submarinos que transportam informações.
+- Web: Serviço construído utilizando a internet.
+- IP (Internet Protocol): Endereço único que identifica um computador em uma rede.
+- ISP: Provedor de Internet.
+- Cliente: Computadores ligados a Internet de forma indireta, através de um ISP.
+- Servidor: Computadores ligados a Internet de forma direta, que hospedam informações que serão acessadas.
+- Packets: Pedaços menores que juntos formam o dado inteiro que foi enviado pela internet.
+  - Esses pedaços tomam diferentes rotas, mas quando chegam no destino final são compilados de maneira correta.
+- Roteadores: Direcionam os pacotes para o local correto na Internet.
+- Página Web: Um documento que pode ser acessado em um navegador.
+- Website: Um conjunto de páginas Web conectadas entre si.
+- Servidor Web: Um computador que hospeda um Website na Internet.
+- Search Engine: Um serviço Web que ajuda a encontrar outras páginas Web.
+- Navegador Web: Programa que acessa as informações da Internet.
+- DNS (Domain Name System): Um livro de endereços para Websites.
+  - Tradução do domínio de um site em seu endereço IP.
+- HTTP (Hypertext Transfer Protocol): Protocolo que garante que a "linguagem" falada entre cliente e servidor sejam a mesma para a transferência de dados.
