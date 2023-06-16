@@ -16,6 +16,9 @@
 - Listas sempre serão utilizadas em algum momento, seja para ordenar Top 10 ou To Do.
 - Tags podem ter atributos que modificam o seu comportamento.
   - Comportamento Chave:Valor
+- Links são formas de acessos para diferentes páginas Web.
+  - Links Absolutos levam para outros Websites na Internet. Sempre conterá o protocolo e o domínio destino.
+  - Links Relativos levam para outras páginas dentro do Website corrente.
 - Class é um atributo que diferencia tags e específica certos comportamentos no CSS e JS.
 - IDs são identificações únicas para tags.
 - No quesito de organização do HTML, mantem-se perto elementos semelhantes.
