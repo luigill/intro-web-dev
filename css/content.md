@@ -7,7 +7,12 @@
 - Quando duas regras conflitam, o efeito cascata age.
   - Vence o último estilo definido.
   - É feito propriedade a propriedade, então pode-se misturar propriedades de diferentes regras, porém, quando conflitam a última ganha.
-  - A maior especificidade(mais de uma classe em uma tag) ganha a corrida também.
+  - A maior especificidade ganha a corrida também.
+  - PONTUAÇÃO
+    - Seletores de Tipo   | Valor: 1    | Exemplo: img
+    - Seletores de Classe | Valor: 10   | Exemplo: .btn
+    - Seletores de ID     | Valor: 100  | Exemplo: #container
+    - Seletores Inline    | Valor: 1000 | Exemplo: Estilizar tags diretamente no HTML.
 - O efeito cascata gera herança de tags pai para tags filhas.
 - O ideal é sempre estilizar classes.
 - IDs são mais utilizados para manipulações usando JavaScript.
