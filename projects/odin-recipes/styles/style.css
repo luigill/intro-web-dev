@@ -1,0 +1,23 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: aliceblue;
+}
+
+h1 {
+  background-color: yellow;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.recipes {
+  color: red;
+  font-size: 24px;
+}
+
+.image {
+  height: auto;
+  width: 150px;
+}

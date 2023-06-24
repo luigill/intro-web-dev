@@ -1,0 +1,12 @@
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  color: red;
+}
+
+.image {
+  height: auto;
+  width: 250px;
+}
