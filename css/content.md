@@ -43,8 +43,8 @@
 - Dessa forma, acessa-se somente os h2 que estão dentro dos elementos que tem a classe recipe-card.
 - Pseudo-classe: Aplica o estile somente se a condição for verdadeira.
 - Pseudo-elementos: Elementos que antecedem ou sucedem a a tag e que podem ser estilizados.
-- Tudo em uma página web é uma caixa retangular.
-
+- Tudo em uma página web é uma caixa.
+  - É possível observar isso utilizando o estilo: "outline: 1px dottet red;"
 ## Importar CSS:
 
 ```
