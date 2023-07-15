@@ -42,9 +42,15 @@
   ```
 - Dessa forma, acessa-se somente os h2 que estão dentro dos elementos que tem a classe recipe-card.
 - Pseudo-classe: Aplica o estile somente se a condição for verdadeira.
+  - Exemplo: button:hover,  em que hover é a pseudo-classe.
 - Pseudo-elementos: Elementos que antecedem ou sucedem a a tag e que podem ser estilizados.
+  ## Box Model
 - Tudo em uma página web é uma caixa.
+- Essas caixas podem ter caixas dentro delas.
   - É possível observar isso utilizando o estilo: "outline: 1px dottet red;"
+- As skills mais importantes dentro do CSS são posicionamento de elementos e layout. 
+- O conteúdo de uma tag (definido por height e width, por exemplo) é contido por padding, border e margin.
+- Margins colapsam entre si quando se encontram em dois elementos.
 ## Importar CSS:
 
 ```
@@ -60,16 +66,21 @@
 
 ## Seletores CSS
 
-- \*: Seletor universal. Seleciona todos os elementos.
+- *: Seletor universal. Seleciona todos os elementos.
 - Tipos: Seleciona tags HTML de determinado tipo.
 - Classe: Seleciona as tags HTML que contém a classe determinada.
 - ID: Seleciona a tag HTML única que contém determinado ID.
 
 ## Propriedades CSS:
 
-- padding: Aumenta o espaço entre a borda e o conteúdo de uma caixa.
-- margin: Aumenta o espaço entre a borda de uma caixa com a borda de caixas adjascentes.
+- padding: Aumenta o espaço entre a borda e o conteúdo de uma caixa (dentro da caixa).
+- margin: Aumenta o espaço entre a borda de uma caixa com a borda de caixas adjascentes (fora da caixa).
+  - margins negativos puxam elementos para perto da caixa.
 - border: Adiciona espaço entre a margin e o padding.
+- box-sizing: Configura como a altura e largura total de um elemento é calculada.
+  - content-box: Comportamento padrão do CSS, soma-se o h e w definidos com o margin e border.
+  - border-box: Margin e border contam no tamanho, dessa maneira diminui-se o h e w definidos.
+    - Utilizado no seletor universal para se evitar matemática do tamanho do elemento.
 - line-height: Altura da linha. Ajusta o espaçamento das linhas.
 - font-family: Modifica a fonte utilizada.
 - font-size: Tamanho da fonte.
@@ -82,3 +93,13 @@
 - text-align: Alinhamento do texto.
 - text-decoration: Modifica opções de estilo do texto.
 - boarder: Funciona como uma borda de uma pintura. Realiza uma marcação por toda a volta do elemento.
+- display: Como o elemento se mostra na tela.
+  - block: Um elemento em cima do outro. Comportamento padrão da maioria dos elementos.
+  - inline: Elementos em linha com os outros elementos que foram postos em linha.
+  - inline-block: Comportamento de inline, com padding e margin de block. Alternativa menos usada que o flexbox.
+  - flexbox:
+  <!-- Genéricos -->
+- div: Elemento que normalmente contém outros elementos. Auxilia em divider a página em diferentes blocos para diferentes estilizações.
+  - Comportamento Padrão: block 
+- span: Agrupar conteúdo de texto e elementos inline.
+  - Comportamento Padrão:  inline 
