@@ -2,4 +2,164 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  background-color: #1f2937;
+  padding: 16px 128px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.header li {
+  list-style-type: none;
+}
+
+a {
+  color: gray;
+  text-decoration: none;
+}
+
+.landing {
+  background-color: #1f2937;
+  padding: 64px 128px 128px 128px;
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.landing-content {
+  width: 50%;
+  padding-right: 25px;
+}
+
+.landing-content h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: extra-bold;
+  margin: 0;
+}
+
+.landing-content p {
+  color: gray;
+  margin: 0;
+}
+
+.landing-content button {
+  color: white;
+  background-color: #3882f6;
+  padding: 5px 25px;
+  margin: 10px 0px;
+  border-radius: 15px;
+}
+
+.image-placeholder {
+  width: 50%;
+  background-color: gray;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  padding: 64px 128px 128px 128px;
+  justify-content: center;
+  align-items: center;
+}
+
+.info h2 {
+  margin-bottom: 100px;
+}
+
+.carousel {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.border-image {
+  width: 150px;
+  height: 200px;
+  border: solid 2px #1f2937;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 64px;
+  background-color: #e5e7eb;
+}
+
+.quote .main-text {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: lighter;
+}
+
+.quote .author {
+  color: #1f2937;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.blue {
+  margin: 64px 128px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 5px;
+}
+
+.blue button {
+  background-color: transparent;
+  color: #f9faf8;
+  border: solid 2px #f9faf8;
+  padding: 5px 25px;
+  margin: 10px 0px;
+  border-radius: 15px;
+}
+
+.blue h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.blue p {
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  background-color: #1f2937;
+  padding: 24px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f9faf8;
 }
