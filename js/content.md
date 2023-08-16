@@ -9,6 +9,8 @@
   1. let: Nova maneira de se declarar variáveis, limita-se ao seu escopo de bloco.
   2. const: Valor que não pode ser alterado no decorrer do código.
   3. var: Antiga maneira de se declarar variáveis, é uma declaração global ou no escopo inteiro de uma função.
+- Método é uma função que pode ser aplicada a um dado.
+- Funções são pedaços de código reutilizáveis.
 
 ### Tipos de dados
 - Integer: Números inteiros.
