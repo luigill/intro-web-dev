@@ -1,4 +1,5 @@
 # Javascript
+
 - Javascript é uma linguagem de programação.
 - Linguagens de programação são utilizadas para resolver problemas que podem ser descritos como algoritmos.
 - Algoritmo é o passo-a-passo para a resolução de um problema.
@@ -13,7 +14,12 @@
 - Funções são pedaços de código reutilizáveis.
 
 ### Tipos de dados
-- Integer: Números inteiros.
-- Float: Números em ponto flutuante.
-- Double: Números em ponto flutuante com uma maior precisão.
-- String: Sequencia de caractéres.
+
+- Number
+- String
+- Boolean
+- Null
+- Undefined
+- Object
+- Symbol
+- Function
