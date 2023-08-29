@@ -46,3 +46,13 @@ console.log(a <= b); //<
 console.log(a >= b); //>
 
 // Prioridade -> (), * e /, + e -
+
+let aB = true;
+let bB = false;
+
+// Os dois tem que ser verdadeiros
+console.log("AND" + aB && bB);
+// Somente um precisa ser verdadeiro
+console.log("OR" + aB || bB);
+// Inverte o resultado lógico
+console.log("NOT" + !aB);
